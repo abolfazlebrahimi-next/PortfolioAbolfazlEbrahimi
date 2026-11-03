@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { GraduationCap, Languages as LanguagesIcon, Sparkles } from "lucide-react";
+import { GraduationCap, Languages as LanguagesIcon } from "lucide-react";
 import { useI18n } from "@/i18n/i18n-provider";
 import { Reveal } from "./reveal";
 import { SectionHeading } from "./section-heading";
@@ -107,42 +107,6 @@ export function Skills() {
             </div>
           </Reveal>
         </div>
-
-        {/* Soft skills */}
-        <Reveal className="mt-5">
-          <div className="rounded-3xl border border-border bg-surface/20 p-6 sm:p-8">
-            <div className="flex items-center justify-between">
-              <h3 className="font-display text-xl font-semibold text-foreground">
-                {t.skills.softTitle}
-              </h3>
-              <Sparkles className="h-4 w-4 text-[var(--lime)]" />
-            </div>
-            <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {t.skills.softItems.map((s, i) => (
-                <motion.div
-                  key={s.title}
-                  initial={{ opacity: 0, y: 12 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-40px" }}
-                  transition={{ duration: 0.5, delay: i * 0.05 }}
-                  className="group rounded-2xl border border-border bg-background/30 p-4 transition-all hover:border-[var(--lime)]/30 hover:bg-surface"
-                >
-                  <div className="flex items-center gap-2.5">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-lg border border-border bg-background/40 text-[var(--lime)]">
-                      <s.icon className="h-3.5 w-3.5" />
-                    </div>
-                    <h4 className="text-sm font-semibold text-foreground">
-                      {s.title}
-                    </h4>
-                  </div>
-                  <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-                    {s.description}
-                  </p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </Reveal>
 
         {/* Education + Languages */}
         <div className="mt-5 grid grid-cols-1 gap-5 lg:grid-cols-2">

@@ -133,20 +133,20 @@ export interface Translation {
     visitAria: (title: string) => string;
     androidLabel: string;
     webLabel: string;
+    showMore: string;
+    noPublicLink: string;
     items: {
       title: string;
       company: string;
       tagline: string;
       description: string;
-      highlights: string[];
       stack: string[];
       url?: string;
       urlLabel?: string;
-      androidLinks?: { label: string; url: string }[];
+      androidLinks?: { label: string; url?: string; note?: string }[];
       badge?: string;
       accent: "lime" | "violet";
       icon: IconType;
-      size: "large" | "regular";
     }[];
   };
 
