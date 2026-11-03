@@ -1,5 +1,3 @@
-"use client";
-
 import { motion } from "framer-motion";
 import { GraduationCap, Languages as LanguagesIcon, Sparkles } from "lucide-react";
 import { useI18n } from "@/i18n/i18n-provider";

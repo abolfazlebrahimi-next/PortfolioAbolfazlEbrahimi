@@ -1,8 +1,6 @@
-"use client";
-
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, ArrowUpRight, Sparkles } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { useRef } from "react";
 import { useI18n } from "@/i18n/i18n-provider";
 import { personalStatic, techStackChips } from "@/i18n";

@@ -1,8 +1,6 @@
-"use client";
-
 import { motion } from "framer-motion";
 import { AlertCircle, MapPin } from "lucide-react";
-import Image from "next/image";
+import Image from "@/components/image";
 import { useI18n } from "@/i18n/i18n-provider";
 import { cn } from "@/lib/utils";
 import { Reveal } from "./reveal";

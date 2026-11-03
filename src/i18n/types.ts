@@ -161,6 +161,7 @@ export interface Translation {
     softTitle: string;
     educationTitle: string;
     languagesTitle: string;
+    languagesNote: string;
     frontendItems: { name: string; icon: IconType }[];
     toolItems: { name: string; icon: IconType }[];
     softItems: { title: string; description: string; icon: IconType }[];
