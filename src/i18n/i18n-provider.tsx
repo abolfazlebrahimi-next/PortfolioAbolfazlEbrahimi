@@ -1,10 +1,8 @@
-"use client";
-
 import {
   createContext,
   useCallback,
   useContext,
-  useEffect,
+  useLayoutEffect,
   useMemo,
   useState,
   type ReactNode,
@@ -44,22 +42,14 @@ function readStoredLocale(): Locale {
 }
 
 export function I18nProvider({ children }: { children: ReactNode }) {
-  // Always start from the default to keep SSR + first paint consistent.
-  const [locale, setLocaleState] = useState<Locale>(DEFAULT_LOCALE);
-
-  // After hydration, switch to the stored preference (if any).
-  // This is intentional: the first paint must match SSR (which uses the
-  // default), and we then upgrade to the persisted user choice.
-  useEffect(() => {
-    const stored = readStoredLocale();
-    if (stored !== DEFAULT_LOCALE) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setLocaleState(stored);
-    }
-  }, []);
+  // Read the persisted preference during the very first render (this is a
+  // client-only app now, so there is no SSR mismatch to guard against) — a
+  // returning visitor never sees the default locale flash before their own
+  // choice is applied.
+  const [locale, setLocaleState] = useState<Locale>(readStoredLocale);
 
   // Apply <html lang> + <html dir> + body font class whenever locale changes.
-  useEffect(() => {
+  useLayoutEffect(() => {
     const dir = getDir(locale);
     const html = document.documentElement;
     html.lang = locale;

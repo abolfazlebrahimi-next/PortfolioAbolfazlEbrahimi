@@ -277,6 +277,7 @@ export const fa: Translation = {
     softTitle: "Soft Skills",
     educationTitle: "تحصیلات",
     languagesTitle: "زبان‌ها",
+    languagesNote: "سطح",
     frontendItems: [
       { name: "HTML5", icon: Code2Icon },
       { name: "CSS", icon: Code2Icon },
@@ -647,6 +648,7 @@ export const en: Translation = {
     softTitle: "Soft Skills",
     educationTitle: "Education",
     languagesTitle: "Languages",
+    languagesNote: "Level",
     frontendItems: [
       { name: "HTML5", icon: Code2Icon },
       { name: "CSS", icon: Code2Icon },

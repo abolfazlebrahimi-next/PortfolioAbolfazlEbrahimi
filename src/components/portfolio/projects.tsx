@@ -1,8 +1,6 @@
-"use client";
-
 import { motion } from "framer-motion";
 import { ArrowUpRight, ExternalLink, Smartphone } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { useI18n } from "@/i18n/i18n-provider";
 import type { Translation } from "@/i18n";
 import { cn } from "@/lib/utils";

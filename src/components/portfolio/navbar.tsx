@@ -1,8 +1,6 @@
-"use client";
-
 import { AnimatePresence, motion, useScroll, useSpring } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { useEffect, useState } from "react";
 import { useI18n } from "@/i18n/i18n-provider";
 import { cn } from "@/lib/utils";

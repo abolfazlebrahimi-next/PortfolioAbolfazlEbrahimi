@@ -7,7 +7,7 @@ import { Navbar } from "@/components/portfolio/navbar";
 import { Projects } from "@/components/portfolio/projects";
 import { Skills } from "@/components/portfolio/skills";
 
-export default function Home() {
+export default function App() {
   return (
     <div className="relative flex min-h-screen flex-col bg-background">
       <Navbar />

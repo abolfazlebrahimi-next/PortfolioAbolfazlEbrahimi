@@ -1,8 +1,6 @@
-"use client";
-
-import Image, { type ImageProps } from "next/image";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { Image, type ImageProps } from "@/components/image";
 
 type SmartImageProps = ImageProps & {
   /** Optional skeleton wrapper class */
@@ -21,6 +19,8 @@ export function SmartImage({
   aspect,
   className,
   alt,
+  onLoad,
+  onError,
   ...imageProps
 }: SmartImageProps) {
   const [status, setStatus] = useState<"loading" | "loaded" | "error">(
@@ -55,8 +55,14 @@ export function SmartImage({
             status === "loaded" ? "opacity-100" : "opacity-0",
             className,
           )}
-          onError={() => setStatus("error")}
-          onLoad={() => setStatus("loaded")}
+          onError={(event) => {
+            setStatus("error");
+            onError?.(event);
+          }}
+          onLoad={(event) => {
+            setStatus("loaded");
+            onLoad?.(event);
+          }}
         />
       ) : null}
 

@@ -1,7 +1,5 @@
-"use client";
-
 import { ArrowUp, Github, Instagram, Linkedin, Mail, Send } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { useI18n } from "@/i18n/i18n-provider";
 import { personalStatic } from "@/i18n";
 import { BrandAvatar } from "./brand-avatar";
