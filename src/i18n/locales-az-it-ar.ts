@@ -20,9 +20,9 @@ import type { Translation } from "./types";
 export const az: Translation = {
   meta: {
     htmlLang: "az",
-    title: "Abolfazl Ebrahimi — Front-End Developer",
+    title: "Abolfazl Ebrahimi (ابوالفضل ابراهیمی) — Front-End Developer",
     description:
-      "Abolfazl Ebrahimi, React və Next.js ilə cavab verən, interaktiv və yüksək performanslı veb təcrübələri yaradan Front-End Developerdir.",
+      "Abolfazl Ebrahimi, React və Next.js ilə cavab verən, interaktiv və yüksək performanslı veb təcrübələri yaradan Front-End Developerdir — Luko panelləri, Alaeddin portalı və Oshagh 315.",
   },
   personal: {
     name: "Abolfazl Ebrahimi",
@@ -393,7 +393,7 @@ export const az: Translation = {
       "Front-end rollarına, freelancer layihələrinə və əməkdaşlığa açıqam. Qurmağa dəyər bir fikrin varsa, eşitməyə çox sevinərəm.",
     ctaPrimary: "Email göndər",
     ctaSecondary: "LinkedIn-də qoşul",
-    ctaTelegram: "Əlaqə",
+    ctaTelegram: "Telegram",
     ctaInstagram: "Instagram",
     labels: {
       email: "Email",
@@ -409,11 +409,9 @@ export const az: Translation = {
 
   footer: {
     tagline:
-      "Fərqli hiss olunan rəqəmsal təcrübələr qururam. React, Next.js, TypeScript və Tailwind CSS ilə hazırlanmışdır.",
+      "Abolfazl Ebrahimi — Front-End və Oyun tərtibatçısı. React, Next.js və TypeScript ilə fərqli hiss olunan rəqəmsal təcrübələr.",
     navigation: "Bölmələr",
     connect: "Qoşul",
-    copyright: "Bütün hüquqlar qorunur.",
-    builtWith: "Next.js · Tailwind CSS · Framer Motion ilə qurulub",
     backToTop: "Yuxarıya qayıt",
     ariaEmail: "Email",
     ariaGithub: "GitHub",
@@ -426,9 +424,9 @@ export const az: Translation = {
 export const it: Translation = {
   meta: {
     htmlLang: "it",
-    title: "Abolfazl Ebrahimi — Sviluppatore Front-End",
+    title: "Abolfazl Ebrahimi (ابوالفضل ابراهیمی) — Sviluppatore Front-End",
     description:
-      "Abolfazl Ebrahimi è uno Sviluppatore Front-End che crea esperienze web reattive, interattive e ad alte prestazioni con React e Next.js.",
+      "Abolfazl Ebrahimi è uno Sviluppatore Front-End che crea esperienze web reattive, interattive e ad alte prestazioni con React e Next.js — pannelli Luko, portale Alaeddin e Oshagh 315.",
   },
   personal: {
     name: "Abolfazl Ebrahimi",
@@ -799,7 +797,7 @@ export const it: Translation = {
       "Sono aperto a ruoli front-end, progetti freelance e collaborazioni. Se hai un'idea che merita di essere realizzata, mi piacerebbe sentirla.",
     ctaPrimary: "Invia un'email",
     ctaSecondary: "Connettiti su LinkedIn",
-    ctaTelegram: "Contattami",
+    ctaTelegram: "Telegram",
     ctaInstagram: "Instagram",
     labels: {
       email: "Email",
@@ -815,11 +813,9 @@ export const it: Translation = {
 
   footer: {
     tagline:
-      "Costruisco esperienze digitali che si sentono diverse. Realizzato con React, Next.js, TypeScript e Tailwind CSS.",
+      "Abolfazl Ebrahimi — Sviluppatore Front-End e Game. Esperienze digitali che si sentono diverse con React, Next.js e TypeScript.",
     navigation: "Sezioni",
     connect: "Connetti",
-    copyright: "Tutti i diritti riservati.",
-    builtWith: "Costruito con Next.js · Tailwind CSS · Framer Motion",
     backToTop: "Torna su",
     ariaEmail: "Email",
     ariaGithub: "GitHub",
@@ -832,9 +828,9 @@ export const it: Translation = {
 export const ar: Translation = {
   meta: {
     htmlLang: "ar",
-    title: "أبوالفضل إبراهيمي — مطوّر واجهات أمامية",
+    title: "أبوالفضل إبراهيمي (Abolfazl Ebrahimi) — مطوّر واجهات أمامية",
     description:
-      "أبوالفضل إبراهيمي مطوّر واجهات أمامية يصنع تجارب ويب تفاعلية وسريعة الاستجابة وعالية الأداء باستخدام React وNext.js.",
+      "أبوالفضل إبراهيمي مطوّر واجهات أمامية يصنع تجارب ويب تفاعلية وسريعة الاستجابة وعالية الأداء باستخدام React وNext.js — لوحات لوكو، بوابة العلاء الدين وموقع عشاق الرقية.",
   },
   personal: {
     name: "أبوالفضل إبراهيمي",
@@ -1205,7 +1201,7 @@ export const ar: Translation = {
       "أنا منفتح على أدوار الواجهات الأمامية، والمشاريع المستقلة، والتعاون. إذا كان لديك فكرة تستحق البناء، يسعدني سماعها.",
     ctaPrimary: "أرسل بريدًا إلكترونيًا",
     ctaSecondary: "تواصل على لينكدإن",
-    ctaTelegram: "تواصل",
+    ctaTelegram: "تلغرام",
     ctaInstagram: "إنستغرام",
     labels: {
       email: "البريد الإلكتروني",
@@ -1221,11 +1217,9 @@ export const ar: Translation = {
 
   footer: {
     tagline:
-      "أبني تجارب رقمية تبدو مختلفة. صُمم باستخدام React وNext.js وTypeScript وTailwind CSS.",
+      "أبوالفضل إبراهيمي — مطوّر واجهات أمامية وألعاب. تجارب رقمية مختلفة باستخدام React وNext.js وTypeScript.",
     navigation: "الأقسام",
     connect: "تواصل",
-    copyright: "جميع الحقوق محفوظة.",
-    builtWith: "بُني بـ Next.js · Tailwind CSS · Framer Motion",
     backToTop: "العودة للأعلى",
     ariaEmail: "البريد الإلكتروني",
     ariaGithub: "GitHub",

@@ -200,8 +200,6 @@ export interface Translation {
     tagline: string;
     navigation: string;
     connect: string;
-    copyright: string;
-    builtWith: string;
     backToTop: string;
     ariaEmail: string;
     ariaGithub: string;

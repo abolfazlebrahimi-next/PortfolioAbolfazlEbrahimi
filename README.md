@@ -82,7 +82,10 @@ public/
 ├── portrait.jpg            # عکس Hero + Contact + Avatar
 ├── logos/                  # لوگوی شرکت‌ها (1:1)
 ├── experience/             # عکس‌های واقعی تجربه‌ها
-├── logo.svg                # فاوآیکون
+├── favicon-32/192.png      # فاوآیکون دایره‌ای از عکس پرتره
+├── apple-touch-icon.png    # آیکون iOS
+├── site.webmanifest        # نام و آیکون اپ
+├── sitemap.xml
 └── robots.txt
 ```
 
@@ -144,7 +147,9 @@ public/
 - ✅ Skeleton loader برای همه‌ی عکس‌ها
 - ✅ ریسپانسیو کامل (موبایل اول)
 - ✅ دسترس‌پذیری (ARIA labels، semantic HTML، keyboard nav)
-- ✅ SEO (متاتگ‌ها در `index.html`، OpenGraph، Twitter cards)
+- ✅ SEO (متاتگ‌ها در `index.html`، OpenGraph، Twitter cards، `sitemap.xml`، `robots.txt`)
+- ✅ داده ساختاریافته JSON-LD نوع Person تا نام «ابوالفضل ابراهیمی / Abolfazl Ebrahimi» در گوگل ثبت شود
+- ✅ فاوآیکون و آیکون اپle از عکس پرتره (دایره‌ای) به‌جای لوگوی قبلی
 - ✅ Brand avatar دایره‌ای با عکس پرتره
 - ✅ ۴ شرکت با لوگو + عکس واقعی
 - ✅ حذف بخش Soft Skills

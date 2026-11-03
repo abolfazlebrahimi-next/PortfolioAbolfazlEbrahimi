@@ -49,14 +49,28 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>(readStoredLocale);
 
   // Apply <html lang> + <html dir> + body font class whenever locale changes.
+  // The document title/description follow the locale too, so the owner's name
+  // is always present in the tab title and in what search engines index.
   useLayoutEffect(() => {
     const dir = getDir(locale);
     const html = document.documentElement;
+    const meta = translations[locale].meta;
     html.lang = locale;
     html.setAttribute("dir", dir);
     // Font class switching for proper Arabic/Persian rendering
     html.classList.toggle("font-rtl", dir === "rtl");
     html.classList.toggle("font-ltr", dir === "ltr");
+
+    document.title = meta.title;
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute("content", meta.description);
+    document
+      .querySelector('meta[property="og:title"]')
+      ?.setAttribute("content", meta.title);
+    document
+      .querySelector('meta[property="og:description"]')
+      ?.setAttribute("content", meta.description);
   }, [locale]);
 
   const setLocale = useCallback((next: Locale) => {

@@ -1,27 +1,74 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Languages as LanguagesIcon } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/i18n/i18n-provider";
 import { Reveal } from "./reveal";
 import { SectionHeading } from "./section-heading";
 
+/**
+ * Infinite skill ticker.
+ *
+ * The track holds two identical groups and slides by exactly one group width
+ * (-50%), so the loop is seamless — no visible jump, no "sudden disappear".
+ * The speed is computed from the measured content width, which keeps it
+ * readable on phones instead of crawling for 40 seconds like the old CSS-only
+ * version did.
+ */
 function SkillMarquee() {
   const { t } = useI18n();
   const items = [...t.skills.frontendItems, ...t.skills.toolItems];
-  const doubled = [...items, ...items];
+  const groupRef = useRef<HTMLDivElement>(null);
+  const [duration, setDuration] = useState(24);
+
+  useEffect(() => {
+    const group = groupRef.current;
+    if (!group) return;
+
+    const measure = () => {
+      // One group of pills + its trailing gap == the distance we must travel.
+      const width = group.scrollWidth;
+      const speed = 46; // px per second — constant on every screen size
+      if (width > 0) setDuration(Math.max(10, Math.round(width / speed)));
+    };
+
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(group);
+    return () => observer.disconnect();
+  }, [items.length]);
+
+  const group = (ref?: React.Ref<HTMLDivElement>, hidden = false) => (
+    <div
+      ref={ref}
+      aria-hidden={hidden || undefined}
+      className="flex shrink-0 items-center gap-3 pe-3"
+    >
+      {items.map((skill) => (
+        <span
+          key={skill.name}
+          className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-3.5 py-1.5 text-xs text-muted-foreground"
+        >
+          <skill.icon className="h-3 w-3 text-[var(--lime)]" />
+          {skill.name}
+        </span>
+      ))}
+    </div>
+  );
+
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-border bg-surface/30 py-4">
-      <div className="pointer-events-none absolute inset-y-0 start-0 z-10 w-16 bg-gradient-to-r from-background to-transparent rtl:bg-gradient-to-l" />
-      <div className="pointer-events-none absolute inset-y-0 end-0 z-10 w-16 bg-gradient-to-l from-background to-transparent rtl:bg-gradient-to-r" />
-      <div className="flex w-max animate-marquee items-center gap-3">
-        {doubled.map((skill, i) => (
-          <span
-            key={`${skill.name}-${i}`}
-            className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-3.5 py-1.5 text-xs text-muted-foreground"
-          >
-            <skill.icon className="h-3 w-3 text-[var(--lime)]" />
-            {skill.name}
-          </span>
-        ))}
+    // `dir="ltr"` is deliberate: inside an RTL page a wider-than-container track
+    // would be right-aligned and overflow to the left, leaving an empty gap at
+    // the end of every loop. Locking the strip to LTR keeps the -50% slide exact.
+    <div
+      dir="ltr"
+      className="marquee-mask relative overflow-hidden rounded-2xl border border-border bg-surface/30 py-4"
+    >
+      <div
+        className="animate-marquee flex w-max items-center hover:[animation-play-state:paused]"
+        style={{ "--marquee-duration": `${duration}s` } as React.CSSProperties}
+      >
+        {group(groupRef)}
+        {group(undefined, true)}
       </div>
     </div>
   );
@@ -42,10 +89,10 @@ export function Skills() {
           description={t.skills.description}
         />
 
-        {/* Skill marquee */}
-        <Reveal className="mt-12">
+        {/* Skill marquee — rendered immediately (no in-view delay) */}
+        <div className="mt-12">
           <SkillMarquee />
-        </Reveal>
+        </div>
 
         {/* Skill groups */}
         <div className="mt-10 grid grid-cols-1 gap-5 lg:grid-cols-2">

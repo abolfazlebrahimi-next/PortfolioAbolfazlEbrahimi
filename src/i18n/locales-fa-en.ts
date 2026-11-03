@@ -20,9 +20,9 @@ import type { Translation } from "./types";
 export const fa: Translation = {
   meta: {
     htmlLang: "fa",
-    title: "ابوالفضل ابراهیمی — توسعه‌دهنده فرانت‌اند",
+    title: "ابوالفضل ابراهیمی (Abolfazl Ebrahimi) — توسعه‌دهنده فرانت‌اند",
     description:
-      "ابوالفضل ابراهیمی، توسعه‌دهنده فرانت‌اند که تجربه‌های وب واکنش‌گرا، تعاملی و با کارایی بالا را با React و Next.js می‌سازد.",
+      "ابوالفضل ابراهیمی (Abolfazl Ebrahimi) توسعه‌دهنده فرانت‌اند و گیم است؛ سازنده‌ی تجربه‌های وب واکنش‌گرا، تعاملی و پرسرعت با React و Next.js — پنل‌های لوکو، پورتال مشتریان علاءالدین و سایت عشاق الرقیه.",
   },
   personal: {
     name: "ابوالفضل ابراهیمی",
@@ -393,7 +393,7 @@ export const fa: Translation = {
       "من برای نقش‌های فرانت‌اند، پروژه‌های فریلنس و همکاری‌ها آماده‌ام. اگر ایده‌ای برای ساخت دارید، خوشحال می‌شوم بشنوم.",
     ctaPrimary: "ایمیل بزنید",
     ctaSecondary: "در لینکدین متصل شوید",
-    ctaTelegram: "تماس",
+    ctaTelegram: "تلگرام",
     ctaInstagram: "اینستاگرام",
     labels: {
       email: "ایمیل",
@@ -409,11 +409,9 @@ export const fa: Translation = {
 
   footer: {
     tagline:
-      "ساخت تجربه‌های دیجیتال متفاوت. ساخته‌شده با React، Next.js، TypeScript و Tailwind CSS.",
+      "ابوالفضل ابراهیمی — توسعه‌دهنده فرانت‌اند و گیم. ساخت تجربه‌های دیجیتال متفاوت با React، Next.js و TypeScript.",
     navigation: "بخش‌ها",
     connect: "ارتباط",
-    copyright: "تمام حقوق محفوظ است.",
-    builtWith: "ساخته‌شده با Next.js · Tailwind CSS · Framer Motion",
     backToTop: "بازگشت به بالا",
     ariaEmail: "ایمیل",
     ariaGithub: "GitHub",
@@ -426,9 +424,9 @@ export const fa: Translation = {
 export const en: Translation = {
   meta: {
     htmlLang: "en",
-    title: "Abolfazl Ebrahimi — Front-End Developer",
+    title: "Abolfazl Ebrahimi (ابوالفضل ابراهیمی) — Front-End Developer",
     description:
-      "Abolfazl Ebrahimi is a Front-End Developer crafting responsive, interactive, and high-performance web experiences with React and Next.js.",
+      "Abolfazl Ebrahimi is a Front-End / Game Developer crafting responsive, interactive and high-performance web experiences with React and Next.js — Luko panels, the Alaeddin customer portal and Oshagh 315.",
   },
   personal: {
     name: "Abolfazl Ebrahimi",
@@ -799,7 +797,7 @@ export const en: Translation = {
       "I'm open to front-end roles, freelance projects, and collaborations. If you have an idea worth building, I'd love to hear about it.",
     ctaPrimary: "Send an email",
     ctaSecondary: "Connect on LinkedIn",
-    ctaTelegram: "Contact",
+    ctaTelegram: "Telegram",
     ctaInstagram: "Instagram",
     labels: {
       email: "Email",
@@ -815,11 +813,9 @@ export const en: Translation = {
 
   footer: {
     tagline:
-      "Building digital experiences that feel different. Crafted with React, Next.js, TypeScript & Tailwind CSS.",
+      "Abolfazl Ebrahimi — Front-End & Game Developer. Building digital experiences that feel different with React, Next.js and TypeScript.",
     navigation: "Navigation",
     connect: "Connect",
-    copyright: "All rights reserved.",
-    builtWith: "Built with Next.js · Tailwind CSS · Framer Motion",
     backToTop: "Back to top",
     ariaEmail: "Email",
     ariaGithub: "GitHub",
