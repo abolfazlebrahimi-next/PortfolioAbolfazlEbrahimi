@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Instagram, Mail, Send, Sparkles } from "lucide-react";
+import { ArrowUpRight, Mail, Phone, Send, Sparkles } from "lucide-react";
 import Link from "@/components/link";
 import { useI18n } from "@/i18n/i18n-provider";
 import { personalStatic, locationByLocale } from "@/i18n";
@@ -61,7 +61,7 @@ export function Contact() {
                 {t.contact.description}
               </motion.p>
 
-              {/* CTAs — Telegram, Email, Instagram */}
+              {/* CTAs — Telegram, Email, Phone (tel: opens the dialer) */}
               <motion.div
                 initial={{ opacity: 0, y: 16 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -87,14 +87,12 @@ export function Contact() {
                   {t.contact.ctaPrimary}
                 </Link>
                 <Link
-                  href={personalStatic.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={t.contact.ctaInstagram}
-                  className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-border bg-surface/40 px-5 py-3 text-sm font-semibold text-foreground backdrop-blur transition-all hover:border-[var(--lime)]/40 hover:text-[var(--lime)] sm:flex-none sm:px-6"
+                  href={`tel:${personalStatic.phone}`}
+                  aria-label={`${t.contact.ctaPhone} — ${personalStatic.phoneDisplay}`}
+                  className="group inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-border bg-surface/40 px-5 py-3 text-sm font-semibold text-foreground backdrop-blur transition-all hover:border-[var(--lime)]/40 hover:text-[var(--lime)] sm:flex-none sm:px-6"
                 >
-                  <Instagram className="h-4 w-4" />
-                  {t.contact.ctaInstagram}
+                  <Phone className="h-4 w-4" />
+                  {t.contact.ctaPhone}
                 </Link>
               </motion.div>
             </Reveal>

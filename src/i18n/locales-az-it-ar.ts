@@ -394,6 +394,7 @@ export const az: Translation = {
     ctaPrimary: "Email göndər",
     ctaSecondary: "LinkedIn-də qoşul",
     ctaTelegram: "Telegram",
+    ctaPhone: "Zəng et",
     ctaInstagram: "Instagram",
     labels: {
       email: "Email",
@@ -798,6 +799,7 @@ export const it: Translation = {
     ctaPrimary: "Invia un'email",
     ctaSecondary: "Connettiti su LinkedIn",
     ctaTelegram: "Telegram",
+    ctaPhone: "Chiamami",
     ctaInstagram: "Instagram",
     labels: {
       email: "Email",
@@ -1202,6 +1204,7 @@ export const ar: Translation = {
     ctaPrimary: "أرسل بريدًا إلكترونيًا",
     ctaSecondary: "تواصل على لينكدإن",
     ctaTelegram: "تلغرام",
+    ctaPhone: "اتصل بي",
     ctaInstagram: "إنستغرام",
     labels: {
       email: "البريد الإلكتروني",

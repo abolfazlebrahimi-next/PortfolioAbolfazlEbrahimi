@@ -1,4 +1,4 @@
-import { ArrowUp, Github, Instagram, Linkedin, Mail, Send } from "lucide-react";
+import { ArrowUp, Github, Linkedin, Mail, Phone, Send } from "lucide-react";
 import Link from "@/components/link";
 import { useI18n } from "@/i18n/i18n-provider";
 import { personalStatic } from "@/i18n";
@@ -65,13 +65,11 @@ export function Footer() {
                 <Send className="h-4 w-4 rtl:scale-x-[-1]" />
               </Link>
               <Link
-                href={personalStatic.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
+                href={`tel:${personalStatic.phone}`}
+                aria-label={`${t.contact.ctaPhone} — ${personalStatic.phoneDisplay}`}
                 className="flex h-9 w-9 items-center justify-center rounded-xl border border-border bg-surface/40 text-muted-foreground transition-all hover:border-[var(--lime)]/40 hover:text-[var(--lime)]"
               >
-                <Instagram className="h-4 w-4" />
+                <Phone className="h-4 w-4" />
               </Link>
               <Link
                 href={`mailto:${personalStatic.email}`}

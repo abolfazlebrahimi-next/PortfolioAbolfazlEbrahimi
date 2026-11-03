@@ -183,6 +183,7 @@ export interface Translation {
     ctaPrimary: string;
     ctaSecondary: string;
     ctaTelegram: string;
+    ctaPhone: string;
     ctaInstagram: string;
     labels: {
       email: string;

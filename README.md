@@ -156,15 +156,15 @@ public/
 - ✅ ۷ پروژه در یک لیست واحد (لوکو، علاءالدین، عشاق الرقیه) با نمایش ۳ تایی و دکمه‌ی «پروژه‌های بیشتر»
 - ✅ لینک‌های دکمه‌ای بزرگ برای هر پروژه + وضعیت اپ‌های اندروید (بازار/مایکت/در حال ساخت)
 - ✅ تایم‌لاین تجربه‌ها در موبایل به شکل نقشه‌راه عمودی با عکس‌های بزرگ‌تر
-- ✅ تماس‌ها در فوتر + دکمه‌ی تماس/ایمیل در بخش contact
+- ✅ تماس‌ها در فوتر + دکمه‌های تلگرام / ایمیل / تماس تلفنی در بخش contact
 
 ---
 
 ## 📞 اطلاعات تماس (در فایل)
 
-- Email: abolfazlebrahimi.next@gmail.com
+- ایمیل: abolfazlebrahimi.next@gmail.com
+- تلفن: +98 993 537 7426
 - Telegram: @abolfazlebrahimi_next
-- Instagram: @abolfazlebrahimi_next
 - GitHub: github.com/abolfazlebrahimi-next
 - LinkedIn: in/abolfazl-ebrahimi
 

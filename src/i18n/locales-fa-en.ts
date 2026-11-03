@@ -394,6 +394,7 @@ export const fa: Translation = {
     ctaPrimary: "ایمیل بزنید",
     ctaSecondary: "در لینکدین متصل شوید",
     ctaTelegram: "تلگرام",
+    ctaPhone: "تماس تلفنی",
     ctaInstagram: "اینستاگرام",
     labels: {
       email: "ایمیل",
@@ -798,6 +799,7 @@ export const en: Translation = {
     ctaPrimary: "Send an email",
     ctaSecondary: "Connect on LinkedIn",
     ctaTelegram: "Telegram",
+    ctaPhone: "Call me",
     ctaInstagram: "Instagram",
     labels: {
       email: "Email",
