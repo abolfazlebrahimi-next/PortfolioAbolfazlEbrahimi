@@ -1,11 +1,13 @@
-import { ArrowUp, Github, Linkedin, Mail, Phone, Send } from "lucide-react";
+import { ArrowUp, Github, Linkedin, Mail, Phone, Send, ShieldCheck } from "lucide-react";
 import Link from "@/components/link";
 import { useI18n } from "@/i18n/i18n-provider";
 import { personalStatic } from "@/i18n";
 import { BrandAvatar } from "./brand-avatar";
+import { useState } from "react";
 
 export function Footer() {
   const { t } = useI18n();
+  const [enamadLogoFailed, setEnamadLogoFailed] = useState(false);
   const navItems = t.nav.items;
 
   return (
@@ -107,13 +109,21 @@ export function Footer() {
               aria-label="مشاهده نماد اعتماد الکترونیکی اینماد"
               className="inline-block w-fit"
             >
-              <img
-                referrerPolicy="origin"
-                src="https://trustseal.enamad.ir/logo.aspx?id=8688749&Code=FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX"
-                alt=""
-                style={{ cursor: "pointer" }}
-                {...{ code: "FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX" }}
-              />
+              {!enamadLogoFailed ? (
+                <img
+                  referrerPolicy="origin"
+                  src="https://trustseal.enamad.ir/logo.aspx?id=8688749&Code=FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX"
+                  alt=""
+                  style={{ cursor: "pointer" }}
+                  {...{ code: "FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX" }}
+                  onError={() => setEnamadLogoFailed(true)}
+                />
+              ) : (
+                <span className="inline-flex items-center gap-2 rounded-lg border border-border bg-surface/40 px-3 py-2 text-xs text-muted-foreground">
+                  <ShieldCheck className="h-4 w-4 text-[var(--lime)]" />
+                  نماد اعتماد الکترونیکی
+                </span>
+              )}
             </a>
           </div>
         </div>
