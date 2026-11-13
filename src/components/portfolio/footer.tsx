@@ -100,20 +100,19 @@ export function Footer() {
               </div>
             </div>
             <a
-              href="https://trustseal.enamad.ir/?id=8688749&Code=FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX"
+              referrerPolicy="origin"
               target="_blank"
               rel="noopener noreferrer"
-              referrerPolicy="origin"
+              href="https://trustseal.enamad.ir/?id=8688749&Code=FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX"
               aria-label="مشاهده نماد اعتماد الکترونیکی اینماد"
-              className="inline-flex w-fit items-center justify-center rounded-xl border border-border bg-surface/40 p-3 transition-colors hover:border-[var(--lime)]/40"
+              className="inline-block w-fit"
             >
               <img
-                src="https://trustseal.enamad.ir/logo.aspx?id=8688749&Code=FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX"
-                alt="نماد اعتماد الکترونیکی اینماد"
-                title="نماد اعتماد الکترونیکی"
-                loading="lazy"
                 referrerPolicy="origin"
-                className="h-auto w-[110px]"
+                src="https://trustseal.enamad.ir/logo.aspx?id=8688749&Code=FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX"
+                alt=""
+                style={{ cursor: "pointer" }}
+                {...{ code: "FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX" }}
               />
             </a>
           </div>
