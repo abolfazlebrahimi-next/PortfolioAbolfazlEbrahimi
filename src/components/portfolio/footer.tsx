@@ -49,12 +49,13 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Socials */}
-          <div className="flex flex-col gap-3">
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-              {t.footer.connect}
-            </p>
-            <div className="flex flex-wrap items-center gap-2">
+          {/* Socials and official Enamad trust seal */}
+          <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-3">
+              <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+                {t.footer.connect}
+              </p>
+              <div className="flex flex-wrap items-center gap-2">
               <Link
                 href={personalStatic.telegram}
                 target="_blank"
@@ -96,7 +97,25 @@ export function Footer() {
               >
                 <Linkedin className="h-4 w-4" />
               </Link>
+              </div>
             </div>
+            <a
+              href="https://trustseal.enamad.ir/?id=8688749&Code=FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX"
+              target="_blank"
+              rel="noopener noreferrer"
+              referrerPolicy="origin"
+              aria-label="مشاهده نماد اعتماد الکترونیکی اینماد"
+              className="inline-flex w-fit items-center justify-center rounded-xl border border-border bg-surface/40 p-3 transition-colors hover:border-[var(--lime)]/40"
+            >
+              <img
+                src="https://trustseal.enamad.ir/logo.aspx?id=8688749&Code=FyUAMBMLkMw4RljEcgU0SUz7tEimqwXX"
+                alt="نماد اعتماد الکترونیکی اینماد"
+                title="نماد اعتماد الکترونیکی"
+                loading="lazy"
+                referrerPolicy="origin"
+                className="h-auto w-[110px]"
+              />
+            </a>
           </div>
         </div>
 
