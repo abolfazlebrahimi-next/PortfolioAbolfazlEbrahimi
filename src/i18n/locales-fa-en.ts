@@ -62,7 +62,7 @@ export const fa: Translation = {
     description:
       "یک توسعه‌دهنده فول‌استک با تمرکز روی فرانت‌اند که ایده‌ها را به محصولات دیجیتالی کاربردی و جذاب تبدیل می‌کند.",
     intro:
-      "من ابوالفضل هستم، یک توسعه‌دهنده فول‌استک که تمرکزم روی فرانت‌اند است و از تبدیل ایده‌ها به محصولات دیجیتالی کاربردی و جذاب لذت می‌برم. با تیم‌های حرفه‌ای کار کرده‌ام تا پلتفرم‌های آموزشی، تجربه‌های مبتنی بر هوش مصنوعی، رابط‌های بلادرنگ و وب‌سایت‌های واکنش‌گرا بسازم.",
+      "من ابوالفضل هستم، یک توسعه‌دهنده فول‌استک که تمرکزم روی فرانت‌اند است و از تبدیل ایده‌ها به محصولات دیجیتالی کاربردی و جذاب لذت می‌برم. با تیم‌های حرفه‌ای کار کرده‌ام تا پلتفرم‌های آموزشی، تجربه‌های مبتنی بر هوش مصنوعی، رابط‌های زنده و وب‌سایت‌های واکنش‌گرا بسازم.",
     para2:
       "من به جزئیاتی که کاربران حس می‌کنند اما به‌ندرت متوجه می‌شوند اهمیت می‌دهم — سرعت بارگذاری بالا، تعاملات قابل پیش‌بینی، چیدمان‌های واکنش‌گرا که در هر صفحه‌ای کار می‌کنند، و کدی که با رشد محصول قابل نگهداری می‌ماند. تمرکز من ارسال محصولات واقعی در محیط‌های تیمی حرفه‌ای بوده است، جایی که کار باید برای کاربران واقعی و محدودیت‌های واقعی عمل کند.",
     emailCta: "ایمیل بزنید",
@@ -80,9 +80,9 @@ export const fa: Translation = {
         icon: BriefcaseIcon,
       },
       {
-        title: "Real-time و Interactive UI",
+        title: "زنده و تعاملی UI",
         description:
-          "کار با WebSocket و داده‌های زنده برای ارائه تجربه‌های بلادرنگ جذاب.",
+          "کار با WebSocket و داده‌های زنده برای ارائه تجربه‌های زنده جذاب.",
         icon: ZapIcon,
       },
       {
@@ -112,9 +112,7 @@ export const fa: Translation = {
         companyTagline: "پلتفرم سفر مبتنی بر هوش مصنوعی",
         role: "Front-End Developer",
         location: "تهران",
-        dates: "تیر ۱۴۰۲ — اسفند ۱۴۰۲",
-        dateNote:
-          "تاریخ‌های موقت — در رزومه اصلی به بازه ۲۰۲۴–۲۰۲۵ نیز اشاره شده است. لطفاً تأیید کنید.",
+        dates: "تیر ۱۴۰۲ — اسفند ۱۴۰۳",
         description:
           "کار روی یک پلتفرم سفر مبتنی بر هوش مصنوعی که Itineraryهای شخصی‌سازی‌شده شامل Tourها، هتل‌ها، Budget و جاذبه‌ها را تولید می‌کند.",
         highlights: [
@@ -133,9 +131,7 @@ export const fa: Translation = {
         companyTagline: "Web Application Studio",
         role: "Front-End Developer",
         location: "تهران",
-        dates: "مهر ۱۴۰۴ — بهمن ۱۴۰۴",
-        dateNote:
-          "در رزومه به نام «فرداد یار» نیز اشاره شده است. فرض نکنید این نام‌ها قابل جایگزینی هستند بدون تأیید.",
+        dates: "30 مرداد ۱۴۰۴ — خرداد ۱۴۰۵",
         description:
           "توسعه و نگهداری Web Applicationها با React، Next.js و Tailwind CSS. همکاری روی پیاده‌سازی Featureها، بهینه‌سازی UI، Code Review و جلسات تیمی.",
         highlights: [
@@ -153,14 +149,13 @@ export const fa: Translation = {
         role: "Front-End Developer",
         secondaryRole: "Game Developer (بعد از ۲ ماه)",
         location: "تهران",
-        dates: "دی ۱۴۰۴ — اکنون",
-        dateNote: "فقط یک ماه در رزومه ذکر شده؛ به‌عنوان جاری در نظر گرفته شده است.",
+        dates: "12 اسفند ۱۴۰۴ — اکنون",
         description:
           "ساخت و نگهداری یک پلتفرم آموزشی مبتنی بر Next.js برای دانش‌آموزان ابتدایی، شامل یادگیری شخصی‌سازی‌شده با هوش مصنوعی، Gamification، بازی‌های تعاملی، پادکست‌ها، نمایش‌های انیمیشنی و داشبورد معلمان. بعد از دو ماه فعالیت، رول Game Developer را هم به من دادند و روی ساخت بازی‌های تعاملی وب با Three.js کار می‌کنم.",
         highlights: [
           "ساخت پلتفرم اصلی Next.js که درس‌های Gamifiedشده، پادکست‌ها و نمایش‌های انیمیشنی را برای دانش‌آموزان ابتدایی قدرتمند می‌کرد.",
           "پیاده‌سازی SSR و بهینه‌سازی‌های Performance برای مدیریت به‌روزرسانی‌های همزمان روی ۱۰۰+ Concept یادگیری.",
-          "تحویل داشبورد Real-time معلم برای ردیابی پیشرفت دانش‌آموزان در Conceptهای یادگیری فردی.",
+          "تحویل داشبورد زنده معلم برای ردیابی پیشرفت دانش‌آموزان در Conceptهای یادگیری فردی.",
           "توسعه بازی‌های تعاملی ۳بعدی و وب با Three.js به‌عنوان Game Developer.",
         ],
         stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "WebSocket", "Three.js"],
@@ -174,8 +169,7 @@ export const fa: Translation = {
         companyTagline: "محصولات Digital Transformation",
         role: "Front-End Developer",
         location: "البرز",
-        dates: "مرداد ۱۴۰۵",
-        dateNote: "فقط یک ماه در رزومه ذکر شده است.",
+        dates: "مرداد ۱۴۰۵ — اکنون",
         description:
           "ساخت رابط‌های وب مدرن و محصولات دیجیتال با React، Next.js و Tailwind CSS. مشارکت در ابتکارات Digital Transformation و همکاری با تیم‌های Cross-functional برای ارائه راه‌حل‌های با کارایی بالا.",
         highlights: [
@@ -204,6 +198,74 @@ export const fa: Translation = {
     showMore: "نمایش پروژه‌های بیشتر",
     noPublicLink: "لینک عمومی ندارد",
     items: [
+      {
+        title: "موکب (عشاق الرقیه ۳۱۵)",
+        company: "پروژه شخصی",
+        tagline: "سایت مذهبی",
+        description:
+          "سایت مذهبی با تقویم مناسبتی و محتوا؛ فرانت‌اند کامل.",
+        stack: ["React", "Tailwind CSS"],
+        url: "https://oshagh315.ir",
+        urlLabel: "oshagh315.ir",
+        accent: "lime",
+        icon: SparklesIcon,
+      },
+      {
+        title: "لندینگ لوکو",
+        company: "لوکو",
+        tagline: "سایت معرفی محصول",
+        description:
+          "صفحه معرفی محصول با فرم جذب لید و دموی تعاملی، بهینه‌شده برای سئو.",
+        stack: ["Next.js", "Tailwind CSS", "SEO"],
+        url: "https://luko.ir",
+        urlLabel: "luko.ir",
+        accent: "violet",
+        icon: GlobeIcon,
+      },
+      {
+        title: "پورتال مشتریان علاءالدین",
+        company: "علاءالدین",
+        tagline: "پورتال مشتریان",
+        description:
+          "پورتال اختصاصی مشتریان برای پیگیری سرویس‌ها و درخواست‌ها؛ بدون لینک عمومی.",
+        stack: ["React", "TypeScript", "Tailwind CSS"],
+        accent: "violet",
+        icon: BriefcaseIcon,
+      },
+      {
+        title: "FutTik",
+        company: "FutTik",
+        tagline: "پلتفرم",
+        description: "پلتفرم FutTik — کد منبع در گیت‌هاب.",
+        stack: [],
+        url: "https://github.com/abolfazlebrahimi-next/FutTik.git",
+        urlLabel: "github.com/abolfazlebrahimi-next/FutTik.git",
+        accent: "lime",
+        icon: RocketIcon,
+      },
+      {
+        title: "دخلتو",
+        company: "دخلتو",
+        tagline: "مدیریت دارایی",
+        description: "پلتفرم مدیریت دارایی — کد منبع در گیت‌هاب.",
+        stack: [],
+        url: "https://github.com/abolfazlebrahimi-next/Dakhleto.git",
+        urlLabel: "github.com/abolfazlebrahimi-next/Dakhleto.git",
+        accent: "lime",
+        icon: BriefcaseIcon,
+      },
+      {
+        title: "نظرآباد مارکت",
+        company: "نظرآباد مارکت",
+        tagline: "در حال توسعه",
+        description: "سوق آنلاین نظرآباد — در حال توسعه.",
+        stack: [],
+        url: "https://github.com/abolfazlebrahimi-next/nazmmarket.git",
+        urlLabel: "github.com/abolfazlebrahimi-next/nazmmarket.git",
+        badge: "در حال توسعه",
+        accent: "violet",
+        icon: RocketIcon,
+      },
       {
         title: "پنل دانش‌آموز لوکو",
         company: "لوکو",
@@ -253,18 +315,6 @@ export const fa: Translation = {
         icon: RocketIcon,
       },
       {
-        title: "لندینگ لوکو",
-        company: "لوکو",
-        tagline: "سایت معرفی محصول",
-        description:
-          "صفحه معرفی محصول با فرم جذب لید و دموی تعاملی، بهینه‌شده برای سئو.",
-        stack: ["Next.js", "Tailwind CSS", "SEO"],
-        url: "https://luko.ir",
-        urlLabel: "luko.ir",
-        accent: "violet",
-        icon: GlobeIcon,
-      },
-      {
         title: "چت خصوصی تیم لوکو",
         company: "لوکو",
         tagline: "ابزار داخلی تیم",
@@ -274,28 +324,6 @@ export const fa: Translation = {
         badge: "داخلی",
         accent: "lime",
         icon: MessageSquareIcon,
-      },
-      {
-        title: "پورتال مشتریان علاءالدین",
-        company: "علاءالدین",
-        tagline: "پورتال مشتریان",
-        description:
-          "پورتال اختصاصی مشتریان برای پیگیری سرویس‌ها و درخواست‌ها؛ بدون لینک عمومی.",
-        stack: ["React", "TypeScript", "Tailwind CSS"],
-        accent: "violet",
-        icon: BriefcaseIcon,
-      },
-      {
-        title: "عشاق الرقیه ۳۱۵",
-        company: "پروژه شخصی",
-        tagline: "سایت مذهبی",
-        description:
-          "سایت مذهبی با تقویم مناسبتی و محتوا؛ فرانت‌اند کامل.",
-        stack: ["React", "Tailwind CSS"],
-        url: "https://oshagh315.ir",
-        urlLabel: "oshagh315.ir",
-        accent: "lime",
-        icon: SparklesIcon,
       },
     ],
   },
@@ -467,7 +495,7 @@ export const en: Translation = {
     description:
       "A full-stack developer with a front-end focus who turns ideas into functional, engaging digital products.",
     intro:
-      "I'm Abolfazl, a full-stack developer with a focus on front-end, and I enjoy turning ideas into functional, engaging digital products. I've worked with professional teams to develop educational platforms, AI-powered experiences, real-time interfaces, and responsive websites.",
+      "I'm Abolfazl, a full-stack developer with a focus on front-end, and I enjoy turning ideas into functional, engaging digital products. I've worked with professional teams to develop educational platforms, AI-powered experiences, live interfaces, and responsive websites.",
     para2:
       "I care about details that users feel but rarely notice — fast load times, predictable interactions, responsive layouts that hold up on every screen, and code that stays maintainable as the product grows. My focus has been shipping real products in professional team environments, where the work has to perform under real users and real constraints.",
     emailCta: "Email me",
@@ -485,9 +513,9 @@ export const en: Translation = {
         icon: BriefcaseIcon,
       },
       {
-        title: "Real-time & Interactive UI",
+        title: "Live & Interactive UI",
         description:
-          "Working with WebSockets and live data to deliver engaging real-time experiences.",
+          "Working with WebSockets and live data to deliver engaging live experiences.",
         icon: ZapIcon,
       },
       {
@@ -517,9 +545,7 @@ export const en: Translation = {
         companyTagline: "AI-based travel platform",
         role: "Front-End Developer",
         location: "Tehran",
-        dates: "Jul 2023 — Mar 2024",
-        dateNote:
-          "Provisional dates — the original resume also references a 2024–2025 window for this role. Please confirm.",
+        dates: "Jul 2023 — Mar 2025",
         description:
           "Worked on an AI-based travel platform that personalizes itineraries, including tours, hotels, budgets, and attractions.",
         highlights: [
@@ -538,9 +564,7 @@ export const en: Translation = {
         companyTagline: "Web application studio",
         role: "Front-End Developer",
         location: "Tehran",
-        dates: "Oct 2025 — Feb 2026",
-        dateNote:
-          "Resume also mentions the name \u201CFardad Yar.\u201D Do not assume these names are interchangeable without confirmation.",
+        dates: "Aug 2025 — Jun 2026",
         description:
           "Developed and maintained web applications with React, Next.js, and Tailwind CSS. Collaborated on feature implementation, UI optimization, code reviews, and team meetings.",
         highlights: [
@@ -558,14 +582,13 @@ export const en: Translation = {
         role: "Front-End Developer",
         secondaryRole: "Game Developer (after 2 months)",
         location: "Tehran",
-        dates: "Jan 2026 — Present",
-        dateNote: "Single month supplied on resume; treated as ongoing.",
+        dates: "Mar 2026 — Present",
         description:
           "Built and maintained a Next.js-based educational platform for elementary school students, featuring AI-powered personalized learning, gamification, interactive games, podcasts, animated shows, and teacher dashboards. After two months, they also gave me the Game Developer role — I build interactive web games with Three.js using the same front-end toolset.",
         highlights: [
           "Built the core Next.js platform powering gamified lessons, podcasts, and animated shows for elementary students.",
           "Implemented SSR and performance optimizations handling concurrent updates across 100+ learning concepts.",
-          "Delivered a real-time teacher dashboard for tracking student progress across individual learning concepts.",
+          "Delivered a live teacher dashboard for tracking student progress across individual learning concepts.",
           "Developed interactive 3D and web games with Three.js as a Game Developer.",
         ],
         stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "WebSocket", "Three.js"],
@@ -579,8 +602,7 @@ export const en: Translation = {
         companyTagline: "Digital transformation products",
         role: "Front-End Developer",
         location: "Alborz",
-        dates: "Aug 2026",
-        dateNote: "Single month supplied on resume.",
+        dates: "Jul 2026 — Present",
         description:
           "Built modern web interfaces and digital products using React, Next.js, and Tailwind CSS. Participated in digital transformation initiatives and collaborated with cross-functional teams to deliver high-performance solutions.",
         highlights: [
@@ -610,11 +632,79 @@ export const en: Translation = {
     noPublicLink: "No public link",
     items: [
       {
+        title: "Mowkab (Oshagh 315)",
+        company: "Personal project",
+        tagline: "Religious website",
+        description:
+          "Full Persian religious website with an events calendar and content — complete front-end.",
+        stack: ["React", "Tailwind CSS"],
+        url: "https://oshagh315.ir",
+        urlLabel: "oshagh315.ir",
+        accent: "lime",
+        icon: SparklesIcon,
+      },
+      {
+        title: "Luko Landing",
+        company: "Luko",
+        tagline: "Marketing site",
+        description:
+          "Responsive product landing page with lead forms and an interactive demo, SEO optimized.",
+        stack: ["Next.js", "Tailwind CSS", "SEO"],
+        url: "https://luko.ir",
+        urlLabel: "luko.ir",
+        accent: "violet",
+        icon: GlobeIcon,
+      },
+      {
+        title: "Alaeddin Customer Portal",
+        company: "Alaeddin",
+        tagline: "Customer portal",
+        description:
+          "Customer portal for service and request tracking — no public link.",
+        stack: ["React", "TypeScript", "Tailwind CSS"],
+        accent: "violet",
+        icon: BriefcaseIcon,
+      },
+      {
+        title: "FutTik",
+        company: "FutTik",
+        tagline: "Platform",
+        description: "FutTik platform — source on GitHub.",
+        stack: [],
+        url: "https://github.com/abolfazlebrahimi-next/FutTik.git",
+        urlLabel: "github.com/abolfazlebrahimi-next/FutTik.git",
+        accent: "lime",
+        icon: RocketIcon,
+      },
+      {
+        title: "Dakhleto",
+        company: "Dakhleto",
+        tagline: "Asset management",
+        description: "Asset management platform — source on GitHub.",
+        stack: [],
+        url: "https://github.com/abolfazlebrahimi-next/Dakhleto.git",
+        urlLabel: "github.com/abolfazlebrahimi-next/Dakhleto.git",
+        accent: "lime",
+        icon: BriefcaseIcon,
+      },
+      {
+        title: "Nazm Market",
+        company: "Nazm Market",
+        tagline: "In development",
+        description: "Nazmabad online market — in development.",
+        stack: [],
+        url: "https://github.com/abolfazlebrahimi-next/nazmmarket.git",
+        urlLabel: "github.com/abolfazlebrahimi-next/nazmmarket.git",
+        badge: "In development",
+        accent: "violet",
+        icon: RocketIcon,
+      },
+      {
         title: "Luko Student Panel",
         company: "Luko",
         tagline: "Student portal & teacher dashboard",
         description:
-          "Student and teacher panel for elementary school — gamified lessons, podcasts and a real-time dashboard.",
+          "Student and teacher panel for elementary school — gamified lessons, podcasts and a live dashboard.",
         stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
         url: "https://my.luko.ir",
         urlLabel: "my.luko.ir",
@@ -658,18 +748,6 @@ export const en: Translation = {
         icon: RocketIcon,
       },
       {
-        title: "Luko Landing",
-        company: "Luko",
-        tagline: "Marketing site",
-        description:
-          "Responsive product landing page with lead forms and an interactive demo, SEO optimized.",
-        stack: ["Next.js", "Tailwind CSS", "SEO"],
-        url: "https://luko.ir",
-        urlLabel: "luko.ir",
-        accent: "violet",
-        icon: GlobeIcon,
-      },
-      {
         title: "Luko Team Chat",
         company: "Luko",
         tagline: "Internal team tool",
@@ -679,28 +757,6 @@ export const en: Translation = {
         badge: "Internal",
         accent: "lime",
         icon: MessageSquareIcon,
-      },
-      {
-        title: "Alaeddin Customer Portal",
-        company: "Alaeddin",
-        tagline: "Customer portal",
-        description:
-          "Customer portal for service and request tracking — no public link.",
-        stack: ["React", "TypeScript", "Tailwind CSS"],
-        accent: "violet",
-        icon: BriefcaseIcon,
-      },
-      {
-        title: "Oshagh 315",
-        company: "Personal project",
-        tagline: "Religious website",
-        description:
-          "Full Persian religious website with an events calendar and content — complete front-end.",
-        stack: ["React", "Tailwind CSS"],
-        url: "https://oshagh315.ir",
-        urlLabel: "oshagh315.ir",
-        accent: "lime",
-        icon: SparklesIcon,
       },
     ],
   },
